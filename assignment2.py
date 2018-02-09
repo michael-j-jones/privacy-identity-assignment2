@@ -5,8 +5,8 @@ import pandas as pd
 measurementID = ['A', 'B', 'C', 'D']
 a_weight = 1
 b_weight = 0.25
-c_weight = 0.8
-d_weight = 0.5
+c_weight = 0.9
+d_weight = 0.25
 pd.options.mode.chained_assignment = None
 
 def lowest_percentage_match(traindata, testdata):
